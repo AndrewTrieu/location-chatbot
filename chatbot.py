@@ -51,6 +51,7 @@ def chatbot():
         # Check if the user wants to know the region
         elif 'region' in question:
             print('The region is ' + location['region'] + '.')
+        # Check if the user wants to know the city
         elif 'city' in question:
             print('The city is ' + location['city'] + '.')
         # Check if the user wants to know the latitude
